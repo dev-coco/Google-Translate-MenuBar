@@ -1,0 +1,256 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 51;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		049A98F924E8C8680030CC4C /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 049A98F824E8C8680030CC4C /* AppDelegate.swift */; };
+		049A98FB24E8C8680030CC4C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 049A98FA24E8C8680030CC4C /* Assets.xcassets */; };
+		049A990724E8C8E90030CC4C /* WebVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = 049A990624E8C8E90030CC4C /* WebVC.xib */; };
+		049A990A24E8CA3F0030CC4C /* WebKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 049A990924E8CA3F0030CC4C /* WebKit.framework */; };
+		049A991324E8CFDB0030CC4C /* MainMenu.xib in Resources */ = {isa = PBXBuildFile; fileRef = 049A991224E8CFDB0030CC4C /* MainMenu.xib */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		049A98F524E8C8680030CC4C /* Google-Translate-MenuBar.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Google-Translate-MenuBar.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		049A98F824E8C8680030CC4C /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		049A98FA24E8C8680030CC4C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		049A98FF24E8C8680030CC4C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		049A990024E8C8680030CC4C /* Google_Translate_MenuBar.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Google_Translate_MenuBar.entitlements; sourceTree = "<group>"; };
+		049A990624E8C8E90030CC4C /* WebVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = WebVC.xib; sourceTree = "<group>"; };
+		049A990924E8CA3F0030CC4C /* WebKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WebKit.framework; path = System/Library/Frameworks/WebKit.framework; sourceTree = SDKROOT; };
+		049A991224E8CFDB0030CC4C /* MainMenu.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = MainMenu.xib; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		049A98F224E8C8680030CC4C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				049A990A24E8CA3F0030CC4C /* WebKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		049A98EC24E8C8680030CC4C = {
+			isa = PBXGroup;
+			children = (
+				049A98F724E8C8680030CC4C /* Google-Translate-MenuBar */,
+				049A98F624E8C8680030CC4C /* Products */,
+				049A990824E8CA3F0030CC4C /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		049A98F624E8C8680030CC4C /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				049A98F524E8C8680030CC4C /* Google-Translate-MenuBar.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		049A98F724E8C8680030CC4C /* Google-Translate-MenuBar */ = {
+			isa = PBXGroup;
+			children = (
+				049A98F824E8C8680030CC4C /* AppDelegate.swift */,
+				049A98FA24E8C8680030CC4C /* Assets.xcassets */,
+				049A98FF24E8C8680030CC4C /* Info.plist */,
+				049A990024E8C8680030CC4C /* Google_Translate_MenuBar.entitlements */,
+				049A991224E8CFDB0030CC4C /* MainMenu.xib */,
+				049A990624E8C8E90030CC4C /* WebVC.xib */,
+			);
+			path = "Google-Translate-MenuBar";
+			sourceTree = "<group>";
+		};
+		049A990824E8CA3F0030CC4C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				049A990924E8CA3F0030CC4C /* WebKit.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		049A98F424E8C8680030CC4C /* Google-Translate-MenuBar */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 049A990324E8C8680030CC4C /* Build configuration list for PBXNativeTarget "Google-Translate-MenuBar" */;
+			buildPhases = (
+				049A98F124E8C8680030CC4C /* Sources */,
+				049A98F224E8C8680030CC4C /* Frameworks */,
+				049A98F324E8C8680030CC4C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Google-Translate-MenuBar";
+			productName = "Google-Translate-MenuBar";
+			productReference = 049A98F524E8C8680030CC4C /* Google-Translate-MenuBar.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		049A98ED24E8C8680030CC4C /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1130;
+				LastUpgradeCheck = 1130;
+				ORGANIZATIONNAME = MAC;
+				TargetAttributes = {
+					049A98F424E8C8680030CC4C = {
+						CreatedOnToolsVersion = 11.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 049A98F024E8C8680030CC4C /* Build configuration list for PBXProject "Google-Translate-MenuBar" */;
+			compatibilityVersion = "Xcode 10.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 049A98EC24E8C8680030CC4C;
+			productRefGroup = 049A98F624E8C8680030CC4C /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				049A98F424E8C8680030CC4C /* Google-Translate-MenuBar */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		049A98F324E8C8680030CC4C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				049A990724E8C8E90030CC4C /* WebVC.xib in Resources */,
+				049A98FB24E8C8680030CC4C /* Assets.xcassets in Resources */,
+				049A991324E8CFDB0030CC4C /* MainMenu.xib in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		049A98F124E8C8680030CC4C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				049A98F924E8C8680030CC4C /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		049A990124E8C8680030CC4C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.10;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		049A990424E8C8680030CC4C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_ENTITLEMENTS = "Google-Translate-MenuBar/Google_Translate_MenuBar.entitlements";
+				CODE_SIGN_IDENTITY = "-";
+				CODE_SIGN_STYLE = Automatic;
+				COMBINE_HIDPI_IMAGES = YES;
+				INFOPLIST_FILE = "Google-Translate-MenuBar/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/../Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "dev-coco.Google-Translate-MenuBar";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		049A98F024E8C8680030CC4C /* Build configuration list for PBXProject "Google-Translate-MenuBar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				049A990124E8C8680030CC4C /* Debug */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+		049A990324E8C8680030CC4C /* Build configuration list for PBXNativeTarget "Google-Translate-MenuBar" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				049A990424E8C8680030CC4C /* Debug */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Debug;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 049A98ED24E8C8680030CC4C /* Project object */;
+}
